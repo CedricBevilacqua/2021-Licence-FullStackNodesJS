@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+
+<head>
+  <meta charset="UTF-8"/>
+  <title>Full-Stack Project : Etudiants</title>
+  <meta name="author" content="Cédric Bevilacqua, Clément Dessingue, Ju-Chan Hwang"/>
+  
+  <link rel="stylesheet" type="text/css" href="style/style..css" title="index style"/>
+
+  <!-- pas de script => ajouté par webpack -->
+
+</head>
+
+<body>
+  <a href="index.html" id="homeLink">HOME</a>
+  <div id="message"></div>
+  <div id="createZone">
+    <input type="text" id="studentName" placeholder="name"/>
+    <input type="text" id="studentFirstnames" placeholder="firstname1,firstname2,..."/>
+    <input type="text" id="studentNumber" placeholder="student number"/>
+    <button id="createUpdate">Créer</button>
+    <button  id="clear">Vider</button>
+  </div>
+
+  <table id="allStudents">
+    <tr>
+        <th>Numéro</th>
+        <th>Nom</th>
+        <th>Prénom</th>
+    </tr>
+ </table>
+</body>
+
+</html>
